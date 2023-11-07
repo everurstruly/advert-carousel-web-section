@@ -44,7 +44,13 @@ textarea {
     margin-inline: auto;
 }
 
+:where(#advert-section) {
+    padding-block: 12em;
+}
+
 .swiper {
-    width: 600px;
-    height: 300px;
+    /* width: 600px; */
+    height: 320px;
+    border: 2px solid black;
+    border-radius: 3px;
 }
