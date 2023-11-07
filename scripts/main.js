@@ -3,16 +3,16 @@ const advertCarouselConfig = {
   // Optional parameters
   //   direction: "vertical",
   keyboard: true, // allow keyboard control
-  loop: true, // allow looping around slides
+//   loop: true, // allow looping around slides
   lazy: true, //lazyload content useful with large sized pages
   slideToClickedSlide: true, // slides can change by click
 //   spaceBetween: 16, //space between slides
   slidesPerView: "auto",
   centeredSlides: true, // active slide will be centered one, if false it will be on the left by default
-  autoplay: {
-    delay: 3000, //ms
-    disableOnInteraction: false,
-  },
+//   autoplay: {
+//     delay: 3000, //ms
+//     disableOnInteraction: false,
+//   },
   // If we need pagination, default bullets
   pagination: {
     el: ".swiper-pagination",
